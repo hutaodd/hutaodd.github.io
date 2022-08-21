@@ -7,3 +7,13 @@
     left: 0 !important;
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
   }
+
+@font-face{
+  font-family:'cat' ;  /* 字体名自定义即可 */
+  src:url('/fonts/cat.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+body {
+  font-family: 'cat';
+}
