@@ -24,3 +24,7 @@ body {
   bottom: 0;
   transform-origin: 100% 100%; /* 从右下开始变换 */
 }
+
+#page-header {
+  background: transparent !important;
+}
