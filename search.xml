@@ -33,13 +33,27 @@
     
     
     <entry>
-      <title>html-learn-note</title>
+      <title>HTML学习笔记</title>
       <link href="/2022/10/11/html-learn-note/"/>
       <url>/2022/10/11/html-learn-note/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
       
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
       
     </entry>
     
