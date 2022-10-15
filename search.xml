@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>JetBrains再出手，这次要干翻VS Code了?</title>
+      <link href="/2022/10/16/fleet/"/>
+      <url>/2022/10/16/fleet/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>就在前两天，JetBrains官博发布公告，宣布其轻量级编辑器Fleet正式开启公共预览了。</p><p>官博表示，自去年最初宣布Fleet以来，得到了用户的极大兴趣，有超过 137,000 人报名参加了私人预览，而这次宣布首次公共预览Fleet，所有人都可以使用。</p><p><img src="http://png.eot.ooo/i/2022/10/16/634adedf58968.png" alt="图片"></p><p>下载地址：<a href="https://www.jetbrains.com.cn/fleet/download">https://www.jetbrains.com.cn/fleet/download</a></p><p>Fleet是JetBrains推出的新的分布式多语言编辑器和IDE，它是JetBrains基于其在后端的IntelliJ平台，采用了全新的用户界面和分布式架构来构建的。</p><p>它的主要特性有：轻量级、智能、分布式、协作、多语言。官方宣称，非常重要的一点是，开发Fleet的目的不是为了取代某个JetBrains旗下的工具，而是为了提供给用户更多的选择。</p><h2 id="轻量智能"><a href="#轻量智能" class="headerlink" title="轻量智能"></a>轻量智能</h2><p>Fleet被构建为快捷的轻量级文本编辑器，可以在几秒内快速启动，以满足用户快速浏览和编辑代码的需求。</p><p>当用户第一次启动Fleet时，它会作为一个功能齐全的编辑器启动，具有语法高亮显示、简单的代码补全以及用户对一个编辑器期待的所有功能。</p><p><img src="http://png.eot.ooo/i/2022/10/16/634adf1b2313f.png" alt="图片"></p><p>Fleet也是一个功能齐全的IDE，具有智能补全、重构、导航、调试以及IDE中一直存在的所有功能。</p><p>用户还可以一键开启Smart Mode。</p><p><img src="https://resources.jetbrains.com/help/img/fleet/1.9/smart-mode_dark.png" alt="启用智能模式"></p><h2 id="支持多语言"><a href="#支持多语言" class="headerlink" title="支持多语言"></a>支持多语言</h2><p>Fleet提供多语言支持并提供开箱即用的服务，常见的比如像Java、Go、Kotlin、JavaScript、Python等都支持。</p><p>用户不再需要打开不同的IDE来获得特定技术所需的功能。使用Fleet，一切都在一个应用程序中。</p><p><img src="http://png.eot.ooo/i/2022/10/16/634adf8b21832.png"></p><p>而且Fleet针对不同类型的项目提供了熟悉且一致的用户体验，因此无论用户使用何种技术集或处理何种类型的项目，都将只需使用一个IDE。</p><h2 id="分布式"><a href="#分布式" class="headerlink" title="分布式"></a>分布式</h2><p>Fleet在设计之初就考虑到满足那些不一定在本地项目上工作的开发者的需求，用户可以仅在本地计算机上运行Fleet，也可以将一些流程移至别处，例如在云端部署代码处理流程。</p><p><img src="http://png.eot.ooo/i/2022/10/16/634adfe33ae67.png" alt="图片"></p><p>Fleet是一个分布式架构，无论用户的项目是在本地、在容器中，还是在其他远程机器上都没有关系。因为它使用虚拟文件系统，用户可以使用Fleet在本地和远程以相同的方式来处理项目。</p><p><img src="http://png.eot.ooo/i/2022/10/16/634ae0875f9d1.jpg" alt="图片"></p><p>说明：</p><ul><li><strong>前端（Frontend）</strong>：主要作用是提供UI，解析文件，为支持的文件类型提供有限的高亮特性等。</li><li><strong>后端（Backend）</strong>：完成繁重工作的服务：索引、静态分析、高级搜索、导航等。每个这样的操作都是由来自工作区的请求启动的，然后工作区处理响应并将数据分派给需要它的组件。</li><li><strong>工作区（Workspace）</strong>：当有多个前端时，其主要目的是维护前端的共享状态的组件。它还注册其他组件以提供有关可用服务和API的信息。</li><li><strong>FSD（Fleet System Daemon）</strong>：Fleet代理通常连接到源代码和SDK所在的系统。它用于代表Fleet在目标环境中构建项目、运行代码、执行终端命令以及执行其他操作。</li></ul><h2 id="协作性"><a href="#协作性" class="headerlink" title="协作性"></a>协作性</h2><p>借助Fleet，无论是本地还是远程，用户都可以轻松地进行项目协作。</p><p>它能够同时处理相同或不同的文件、运行测试、访问终端以及执行协作IDE所期望的其他功能。</p><p>比如用户可以共享终端和调试会话、执行代码审查、探索代码，以及进行更多其他操作。</p><p><img src="http://inews.gtimg.com/newsapp_match/0/14241203003/0" alt="图片"></p><h2 id="配套支持"><a href="#配套支持" class="headerlink" title="配套支持"></a>配套支持</h2><p>Fleet也为用户提供了一系列集成的内置工具，以满足不同场景和项目的需求，比如多种插件、主题、终端等等。</p><p><img src="http://png.eot.ooo/i/2022/10/16/634ae0dd113ac.png" alt="图片"></p><h2 id="后续迭代"><a href="#后续迭代" class="headerlink" title="后续迭代"></a>后续迭代</h2><p>由于Fleet目前刚刚处于公开预览状态，肯定还有很多不完善以及待处理的用户反馈。</p><p>JetBrains官博表示在未来几个月，团队将致力于稳定Fleet，并尽可能地解决所得到的用户反馈。同时也将在以下领域进行开发和迭代。</p><ul><li><strong>为插件作者提供API支持和 SDK</strong> – 鉴于Fleet有一个分布式架构，所以还需要努力为插件作者简化工作，并且会为扩展Fleet提供一个平台。</li><li><strong>性能</strong> – 希望Fleet在内存占用和时间响应方面都能更加优化。有很多地方仍然可以提高性能，官方表示将在这些方面努力。</li><li><strong>主题和键盘映射</strong> – 由于众多开发者都已经习惯了现有的编辑器和IDE，当开发者们转移到新的IDE时，往往都会有一些切换成本，官方也表示将致力于增加对更多主题和键盘映射的支持。</li></ul><p>聊到这里，不得不说编程软件界也卷得厉害哇。也有不少网友开玩笑地表示，VS Code：危!<img src="http://png.eot.ooo/i/2022/10/16/634ae761126ac.png" width="45">但是话说回来，短期内VS Code的地位应该还是比较难以撼动的。</p><p>不过对于用户来说，其实多一个软件可供选择也挺好，软件的一家独大也未必是好事。毕竟软件间的相互竞争，一定程度上也可以督促产品的迭代和进化，往往也能带来更多产品和用户体验上的提升。</p><p>参考阅读：</p><p><a href="https://blog.jetbrains.com/zh-hans/fleet/2022/10/introducing-the-fleet-public-preview">https://blog.jetbrains.com/zh-hans/fleet/2022/10/introducing-the-fleet-public-preview</a></p><p><a href="https://blog.jetbrains.com/zh-hans/blog/2021/11/29/fleet">https://blog.jetbrains.com/zh-hans/blog/2021/11/29/fleet</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JetBrains </tag>
+            
+            <tag> 围观 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自判定随随机二次元图片API接口源码</title>
       <link href="/2022/10/13/bangumiapi/"/>
       <url>/2022/10/13/bangumiapi/</url>
