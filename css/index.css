@@ -10342,7 +10342,7 @@ h1.page-title + .tag-cloud-list {
   background: #f6f8fa;
 }
 #post-comment .comment-head .comment-switch .first-comment {
-  color: #425aef;
+  color: #39c5bb;
 }
 #post-comment .comment-head .comment-switch .second-comment {
   color: #ff7242;
@@ -10354,7 +10354,7 @@ h1.page-title + .tag-cloud-list {
   width: 42px;
   height: 22px;
   border-radius: 34px;
-  background-color: #425aef;
+  background-color: #39c5bb;
   vertical-align: middle;
   cursor: pointer;
   -webkit-transition: 0.4s;
