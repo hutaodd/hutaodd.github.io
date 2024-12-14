@@ -2741,12 +2741,12 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-meta-theme-color: #f7f9fe;
   --anzhiyu-theme-op-deep: rgba(66,89,239,0.867);
   --global-bg: #f7f9fe;
-  --anzhiyu-theme: #425aef;
+  --anzhiyu-theme: #39c5bb;
   --anzhiyu-theme-deep: #1856fb;
   --anzhiyu-theme-op: rgba(66,89,239,0.137);
   --anzhiyu-blue: #5ca1ff;
   --anzhiyu-blue-tint: rgba(92,161,255,0.1);
-  --anzhiyu-red: #d8213c;
+  --anzhiyu-red: #ff619c;
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
@@ -2782,11 +2782,11 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-blue-tint: rgba(92,161,255,0.1);
   --anzhiyu-theme-op-deep: rgba(0,132,255,0.867);
   --global-bg: #18171d;
-  --anzhiyu-theme: #f2b94b;
+  --anzhiyu-theme: #258079;
   --anzhiyu-theme-deep: #0076e5;
   --anzhiyu-theme-op: rgba(242,185,75,0.137);
-  --anzhiyu-blue: #0084ff;
-  --anzhiyu-red: #ff3842;
+  --anzhiyu-blue: #45bab1;
+  --anzhiyu-red: #ff619c;
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #f7f7fa;
@@ -10342,7 +10342,7 @@ h1.page-title + .tag-cloud-list {
   background: #f6f8fa;
 }
 #post-comment .comment-head .comment-switch .first-comment {
-  color: #39c5bb;
+  color: #425aef;
 }
 #post-comment .comment-head .comment-switch .second-comment {
   color: #ff7242;
@@ -10354,7 +10354,7 @@ h1.page-title + .tag-cloud-list {
   width: 42px;
   height: 22px;
   border-radius: 34px;
-  background-color: #39c5bb;
+  background-color: #425aef;
   vertical-align: middle;
   cursor: pointer;
   -webkit-transition: 0.4s;
